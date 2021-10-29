@@ -1,0 +1,5 @@
+<launch>
+  <node name="rpm_pub_node" pkg="udemy_cpp_pkg" type="rpm" />
+  <param name="wheel_dia" type="double" value="0.25" />
+  <node name="speed_node" pkg="udemy_cpp_pkg" type="speed" />
+</launch>
